@@ -1,0 +1,17 @@
+<h2>Usuarios</h2>
+<table class= 'table table-stripped'>
+    <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Cpf</th>
+        <th>Email</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usuario of usuarios">
+            <td>{{ usuario.id }}</td>
+            <td>{{ usuario.nome }}</td>
+            <td>{{ usuario.cpf }}</td>
+            <td>{{ usuario.email }}</td>
+        </tr>
+    </tbody>
+</table>
